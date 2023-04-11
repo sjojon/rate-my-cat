@@ -1,0 +1,5 @@
+function profileView() {
+    return `
+    profile
+    `;
+}

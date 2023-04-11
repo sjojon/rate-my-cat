@@ -1,0 +1,26 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    /* height: 47px; */
+}
+  
+#navbar button {
+    cursor: pointer;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    background-color: #333;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar p {
+    text-align: center;
+    font-size: 15px;
+    color: #f2f2f2;
+}

@@ -1,0 +1,5 @@
+function ratingView() {
+    return `
+    rating
+    `;
+}
