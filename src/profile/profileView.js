@@ -10,7 +10,7 @@ function profileView() {
         </div>
         
         <div>
-        <h2>Om katten min:</h2>
+        <h2>Om kattene mine:</h2>
         <h3>Navn</h3>
         <img src="img/blue-cat.jpg" alt="Bilde av katt" height="200px" width="300px">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -22,9 +22,9 @@ function profileView() {
             <input type="text">
             <p>Om meg:</p>
             <input type="text">
-            <p>Navn på katten</p>
+            <p>Navn på kattene</p>
             <input type="text">
-            <p>Om katten min:</p>
+            <p>Om kattene mine:</p>
             <input type="text"><br><br>
             <button onclick="saveInfo()">Lagre</button>
         </div>
