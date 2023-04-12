@@ -5,7 +5,7 @@ function headerView() {
     <button onclick="profile()"><i class="fa-solid fa-user"> Profile</i></button>
     <button onclick="rating()"><i class="fa-solid fa-star"> Rating</i></button>
     <button onclick="top3()"><i class="fa-solid fa-medal"> Top 3</i></button>
-    <button onclick="login()"><i class="fa-solid">Logg inn</i></button>
+    <button onclick="login()"><i class="fa-solid fa-right-to-bracket"> Logg inn</i></button>
     <p>
     <i class="fa-regular fa-star-half">
     Rate my cat
