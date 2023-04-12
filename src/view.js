@@ -29,6 +29,9 @@ function updateView() {
         case 'login':
             html = loginView();
             break;
+        case 'register':
+            html = registerView();
+            break;
     }
     return html;
 }

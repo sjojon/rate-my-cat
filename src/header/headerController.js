@@ -3,6 +3,11 @@ function home() {
     view();
 }
 
+function login() {
+    model.app.page = 'login';
+    view();
+}
+
 function profile() {
     model.app.page = 'profile';
     view();
@@ -20,10 +25,5 @@ function rating() {
 
 function top3() {
     model.app.page = 'top3';
-    view();
-}
-
-function login() {
-    model.app.page = 'login';
     view();
 }

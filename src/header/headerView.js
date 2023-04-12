@@ -5,6 +5,10 @@ function headerView() {
         <i class="fa-solid fa-house"> Home</i>
       </button>
 
+      <button onclick="login()">
+       <i class="fa-solid fa-right-to-bracket"> Logg inn</i>
+      </button>
+
       <button onclick="profile()">
         <i class="fa-solid fa-user"> Profile</i>
       </button>
@@ -19,10 +23,6 @@ function headerView() {
 
       <button onclick="top3()">
         <i class="fa-solid fa-medal"> Top 3</i>
-      </button>
-
-      <button onclick="login()">
-       <i class="fa-solid fa-right-to-bracket"> Logg inn</i>
       </button>
 
       <p>

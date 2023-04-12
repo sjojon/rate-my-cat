@@ -1,7 +1,7 @@
 const model = {
 
     app: {
-        page: 'home',
+        page: 'login',
     },
 
     input: {
@@ -23,6 +23,12 @@ const model = {
         login: {
             userName: '',
             password: '',
+        },
+
+        register: {
+            name: '',
+            password: '',
+            email: '',
         },
 
     },
