@@ -8,6 +8,11 @@ function profile() {
     view();
 }
 
+function randomCat() {
+    model.app.page = 'randomCat';
+    view();
+}
+
 function rating() {
     model.app.page = 'rating';
     view();

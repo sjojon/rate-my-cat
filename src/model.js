@@ -5,6 +5,25 @@ const model = {
     },
 
     input: {
+        profile: {
+            name: '',
+            about: '',
+            aboutCats: '',
+        },
+
+        rating: {
+            catImg: '',
+            description: '',
+        },
+
+        top3: {
+            // Skal bare vise fram 3 bilder, trenger ingen inputs
+        },
+
+        login: {
+            userName: '',
+            password: '',
+        },
 
     },
 

@@ -20,6 +20,9 @@ function updateView() {
         case 'rating':
             html = ratingView();
             break;
+        case 'randomCat':
+            html = randomCatView();
+            break;
         case 'top3':
             html = top3View();
             break;
