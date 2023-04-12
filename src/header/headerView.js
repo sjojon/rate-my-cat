@@ -5,7 +5,7 @@ function headerView() {
         <i class="fa-solid fa-house"> Home</i>
       </button>
 
-      <button onclick="login()">
+      <button onclick="loginPage()">
        <i class="fa-solid fa-right-to-bracket"> Logg inn</i>
       </button>
 

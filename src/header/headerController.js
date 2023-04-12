@@ -3,7 +3,7 @@ function home() {
     view();
 }
 
-function login() {
+function loginPage() {
     model.app.page = 'login';
     view();
 }

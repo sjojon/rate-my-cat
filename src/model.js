@@ -1,14 +1,15 @@
 const model = {
 
     app: {
-        page: 'login',
+        page: 'rating',
     },
 
     input: {
         profile: {
             name: '',
             about: '',
-            aboutCats: '',
+            catName: '',
+            aboutCat: '',
         },
 
         rating: {
@@ -26,20 +27,19 @@ const model = {
         },
 
         register: {
-            name: '',
-            password: '',
             email: '',
+            password: '',
         },
 
     },
 
     data: {
         account: [
-            { id: 1, name: '', aboutMe: '', aboutCat: '' }
+            { id: 1, name: '', aboutMe: '', img: '', }
         ],
 
         cats: [
-            { id: 1, name: 'Samba', furQuality: 10, faceCuteness: 10, charisma: 10, tail: 10, img: '', }
+            { id: 1, name: 'Samba', aboutCat: '', furQuality: 10, faceCuteness: 10, charisma: 10, tail: 10, img: '', }
         ]
     },
 };
