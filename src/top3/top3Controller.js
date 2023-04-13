@@ -27,7 +27,3 @@ for (let i = 0; i < catObject.length; i++) {
     list2 += ` <li> ${catObject[i].name}</li>`;
 }
 
-// .map(cat => {
-//     const score = cat.furQuality + cat.faceCuteness + cat.charisma + cat.tail;
-//     return { ...cat, score };
-// });
