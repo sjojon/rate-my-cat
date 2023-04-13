@@ -3,7 +3,7 @@ const catObject = model.data.cats;
 let result = top5(catObject);
 let list = '';
 let list2 = '';
-let score = catObject[0].furQuality + catObject[0].faceCuteness + catObject[0].charisma + catObject[0].tail;
+// let score = catObject[0].furQuality + catObject[0].faceCuteness + catObject[0].charisma + catObject[0].tail;
 
 
 
