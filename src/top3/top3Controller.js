@@ -3,7 +3,7 @@ const catObject = model.data.cats;
 let result = top5(catObject);
 let list = '';
 let list2 = '';
-// let score = catObject[0].furQuality + catObject[0].faceCuteness + catObject[0].charisma + catObject[0].tail;
+
 
 
 
@@ -19,7 +19,7 @@ function top5() {
 
 // Lister opp Top5
 for (let i = 0; i < result.length; i++) {
-    list += ` <li> ${result[i].name} (${result[i].score} poeng)</li>`;
+    list += ` <li> ${result[i].name}</li>`;
 }
 
 // Lister opp original objektet
