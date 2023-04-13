@@ -9,8 +9,8 @@ let list2 = '';
 
 function top5() {
     let copy = catObject.slice(); // For ikke å modifisere original objektet må det kopieres først
-    let sortedCats = copy.sort((a, b) => {
-        let aScore = a.furQuality + a.faceCuteness + a.charisma + a.tail;
+    let sortedCats = copy.sort(function (a, b) {
+        let aScore = a.furQuality + a.faceCuteness + a.charisma + a.tail; // For å legge sammen til 1 sum
         let bScore = b.furQuality + b.faceCuteness + b.charisma + b.tail;
         return bScore - aScore; // b må stå først, hvis ikke så kommer laveste score på toppen
     });
@@ -27,3 +27,13 @@ for (let i = 0; i < catObject.length; i++) {
     list2 += ` <li> ${catObject[i].name}</li>`;
 }
 
+
+
+// const cars = [
+//     { type: "Volvo", year: 2016 },
+//     { type: "Saab", year: 2001 },
+//     { type: "BMW", year: 2010 }
+// ];
+// cars.sort(function (a, b) {
+//     return a.year - b.year;
+// });
