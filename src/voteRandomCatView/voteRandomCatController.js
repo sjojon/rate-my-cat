@@ -9,5 +9,5 @@ function getRandomCat() {
     randomNum = Math.floor(Math.random() * 10);
 
     console.log(randomNum);
-    console.log(randomCatImg);
+    // console.log(randomCatImg);
 }
