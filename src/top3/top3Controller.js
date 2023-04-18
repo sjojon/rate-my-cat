@@ -1,5 +1,4 @@
 // Sortere 5 top cats fra modell
-const catObject = model.data.cats;
 let result = top5(catObject);
 let list = '';
 let list2 = '';
