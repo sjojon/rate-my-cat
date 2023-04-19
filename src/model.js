@@ -2,6 +2,7 @@ const model = {
 
     app: {
         page: 'randomCat',
+        currentRandomCat: 0,
     },
 
     input: {

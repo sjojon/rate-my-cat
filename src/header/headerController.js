@@ -1,29 +1,29 @@
 function home() {
     model.app.page = 'home';
-    view();
+    updateView();
 }
 
 function loginPage() {
     model.app.page = 'login';
-    view();
+    updateView();
 }
 
 function profile() {
     model.app.page = 'profile';
-    view();
+    updateView();
 }
 
 function randomCat() {
     model.app.page = 'randomCat';
-    view();
+    updateView();
 }
 
 function rating() {
     model.app.page = 'rating';
-    view();
+    updateView();
 }
 
 function top3() {
     model.app.page = 'top3';
-    view();
+    updateView();
 }

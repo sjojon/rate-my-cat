@@ -1,37 +1,33 @@
-view();
-function view() {
-    document.getElementById('app').innerHTML = /*HTML*/`
-    ${headerView()}
-    ${updateView()}
-    `;
-}
+updateView();
+
 
 function updateView() {
-    const page = model.app.page;
-
     let html = '';
+    const page = model.app.page;
+    html += headerView();
+
     switch (page) {
         case 'home':
-            html = homeView();
+            html += homeView();
             break;
         case 'profile':
-            html = profileView();
+            html += profileView();
             break;
         case 'rating':
-            html = ratingView();
+            html += ratingView();
             break;
         case 'randomCat':
-            html = randomCatView();
+            html += randomCatView();
             break;
         case 'top3':
-            html = top3View();
+            html += top3View();
             break;
         case 'login':
-            html = loginView();
+            html += loginView();
             break;
         case 'register':
-            html = registerView();
+            html += registerView();
             break;
     }
-    return html;
+    document.getElementById('app').innerHTML = html;
 }
