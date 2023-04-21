@@ -1,7 +1,7 @@
 const model = {
 
     app: {
-        page: 'randomCat',
+        page: 'home',
         currentRandomCat: 0,
     },
 
